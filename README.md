@@ -13,22 +13,44 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 ## Lab Warmup - LeapChecker (Required)
 [Walkthrough Video](https://www.youtube.com/playlist?list=PLbxWwkW_BhyAyktCxjjiuAu-hi5f3AFIh). 
 ### Problem Description
-Design and implement an application that reads an integer value representing a year from the user.  The purpose of the program is to determine whether the year is a leap year (and therefore has 29 days in February) in the Gregorian calendar.  A year is a leap year if it is divisible by 4, unless it is also divisible by 100 but not 400.  For example, the year 2003 is not a leap year, but 2004 is.  The year 1900 is not a leap year because it is divisible by 100, but the year 2000 is a leap year because even though it is divisible by 100, it is also divisible by 400. Produce an error message for any input value less than 1582 (the year the Gregorian calendar was adopted). Your program should match the expected output below.
+Design and implement an application that reads an integer value representing a year from the user.  The purpose of the program is to determine whether the year is a leap year (and therefore has 29 days in February) in the Gregorian calendar.  A year is a leap year if it is divisible by 4, unless it is also divisible by 100 but not 400.  For example, the year 2003 is not a leap year, but 2004 is.  The year 1900 is not a leap year because it is divisible by 100, but the year 2000 is a leap year because even though it is divisible by 100, it is also divisible by 400.  
+
+Print an error message for any input value less than 1582 (the year the Gregorian calendar was adopted) and exit immediately. When a non-recoverable error occurs, it is common to exit immediately with a non-zero exit status.  On most operating systems, an exit status of zero means that the program ran successfully and a non-zero exit status means that some sort of error has occurred. 
+
+The following code will allow your program to exit immediately with an exit status of 1.
+
+```
+System.exit(1);
+```
+
+Your program should match the expected output below.
 
 #### Expected Program Output (with sample user input)
 ```
 Enter a year: 1980
 1980 is a leap year
-
+```
+#### Expected Program Output (with sample user input)
+```
 Enter a year: 2020
 2020 is a leap year
-
+```
+#### Expected Program Output (with sample user input)
+```
 Enter a year: 1900
 1900 is not a leap year
-
+```
+#### Expected Program Output (with sample user input)
+```
 Enter a year: 2019
 2019 is not a leap year
 ```
+#### Expected Program Output (with sample user input)
+```
+Enter a year: 1502
+ERROR: not valid in Gregorian calendar
+```
+
 ### Implementation Guide
 1. Expand the folder named LeapChecker and create a new file named LeapChecker.java
 2. Design a program to satisfy the requirements in the Problem Description and enter the program code in LeapChecker.java
@@ -38,11 +60,16 @@ Enter a year: 2019
 
 ## Lab Activity 1 - EvenNumberSum (Required)
 ### Problem Description
-Design and implement an application that reads an integer value and prints the sum of all even integers between 2 and the input value, inclusive. Print an error message if the input value is less than 2 and exit. When an error occurs, it is common to exit immediately with a non-zero exit status (On most operating systems an exit status of zero means success and a non-zero exit status means that some sort of error has occurred.).  The follow code will allow your program to exit immediately with an exit status of 1.
+Design and implement an application that reads an integer value and prints the sum of all even integers between 2 and the input value, inclusive. Print an error message if the input value is less than 2 and exit immediately.
 
+When a non-recoverable error occurs, it is common to exit immediately with a non-zero exit status.  On most operating systems, an exit status of zero means that the program ran successfully and a non-zero exit status means that some sort of error has occurred. 
+
+The following code will allow your program to exit immediately with an exit status of 1.
 ```
 System.exit(1);
 ```
+
+Your program should match the expected output below.
 
 #### Expected Program Output (with sample user input)
 ```
