@@ -11,7 +11,7 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 - More to come as we learn about input validation and exception handling
 
 ## Lab Warmup - LeapChecker (Required)
-[Walkthrough Video](https://www.youtube.com/playlist?list=PLbxWwkW_BhyAyktCxjjiuAu-hi5f3AFIh). 
+[Walkthrough Video](https://www.youtube.com/playlist?list=PLbxWwkW_BhyAyktCxjjiuAu-hi5f3AFIh)
 ### Problem Description
 Design and implement an application that reads an integer value representing a year from the user.  The purpose of the program is to determine whether the year is a leap year (and therefore has 29 days in February) in the Gregorian calendar.  A year is a leap year if it is divisible by 4, unless it is also divisible by 100 but not 400.  For example, the year 2003 is not a leap year, but 2004 is.  The year 1900 is not a leap year because it is divisible by 100, but the year 2000 is a leap year because even though it is divisible by 100, it is also divisible by 400.  
 
