@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "LabGuide"
+		},
+		{
+			"path": "A1-LeapChecker"
+		},
+		{
+			"path": "A2-EvenNumberSum"
+		},
+		{
+			"path": "A3-HigherLower"
+		},
+		{
+			"path": "A4-VowelCounter"
+		},
+		{
+			"path": "A5-RockPaperScissors"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/.placeholder": true
+		}
+	}
+}
