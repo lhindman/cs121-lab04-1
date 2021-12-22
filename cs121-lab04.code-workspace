@@ -4,19 +4,13 @@
 			"path": "LabGuide"
 		},
 		{
-			"path": "A1-LeapChecker"
+			"path": "LeapChecker"
 		},
 		{
-			"path": "A2-EvenNumberSum"
+			"path": "EvenNumberSum"
 		},
 		{
-			"path": "A3-HigherLower"
-		},
-		{
-			"path": "A4-VowelCounter"
-		},
-		{
-			"path": "A5-RockPaperScissors"
+			"path": "CodingJournal"
 		}
 	],
 	"settings": {
