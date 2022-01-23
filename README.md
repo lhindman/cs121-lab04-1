@@ -1,6 +1,6 @@
 # Module 4 Lab Guide (part 1)
 ## Getting Started
-[Lab Introduction Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16f82241-9181-4de0-b131-ae240170c297)
+[Lab Introduction Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16f82241-9181-4de0-b131-ae240170c297&start=0)
 
 ### Code Style Requirements
 Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQBKkApnNAzzgwOSvRM03DmhYWx5yEfecT2WXfjI/edit?usp=sharing) and apply it in all lab activities and projects this semester. Coding Style will assessed as part of your lab and project grades.
@@ -11,7 +11,7 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 - More to come as we learn about input validation and exception handling
 
 ## Lab Warmup - LeapChecker
-[Walkthrough Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8cfc1377-4e98-4c51-863a-ae240170c290)
+[Walkthrough Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8cfc1377-4e98-4c51-863a-ae240170c290&start=0)
 ### Problem Description
 Design and implement an application that reads an integer value representing a year from the user.  The purpose of the program is to determine whether the year is a leap year (and therefore has 29 days in February) in the Gregorian calendar.  A year is a leap year if it is divisible by 4, unless it is also divisible by 100 but not 400.  For example, the year 2003 is not a leap year, but 2004 is.  The year 1900 is not a leap year because it is divisible by 100, but the year 2000 is a leap year because even though it is divisible by 100, it is also divisible by 400.  
 
